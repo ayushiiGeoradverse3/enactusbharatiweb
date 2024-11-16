@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Manure Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="shopcss.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="enactus BHARATI.png" alt="enactus LOGO" class="logo" width="180" height="100">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#products">Products</a>
+            <a href="#reservation">Reserve a Table</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <h3>Compost Manure</h3>
+                <p>High-quality compost for your garden.</p>
+                <p>Price: ₹20</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <h3>Worm Castings</h3>
+                <p>Nutrient-rich worm castings for plants.</p>
+                <p>Price: ₹25 </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <h3>Organic Fertilizer</h3>
+                <p>All-natural fertilizer for healthy growth.</p>
+                <p>Price: ₹30</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <h2>Reserve a Table</h2>
+        <form class="reservation-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br>
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" name="contact" required><br>
+            <button type="submit">Reserve Table</button>
+        </form>
+    </section>
+</body>
+</html>
