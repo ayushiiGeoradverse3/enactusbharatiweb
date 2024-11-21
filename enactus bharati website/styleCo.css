@@ -145,3 +145,60 @@ tr td:first-child{
     padding-top:10px;
     
 }
+/*footer styling*/
+body{
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerf{
+    max-width: 1170px;
+    margin: auto;
+}
+.rowf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.ulf{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 1;
+    bottom: -20px;
+    background-color: #f5cb5c;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col .ulf li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col .ulf li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col .ulf li a:hover{
+    color:#ffffff;
+    padding: 8px;
+}
